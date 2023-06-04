@@ -524,7 +524,7 @@
 }
 
 .team-card__social a:hover {
-	background-color: #c1180b;
+	background-color: #84c416;
 }
 
 .team-card:hover .team-card__social {
@@ -842,7 +842,7 @@
 	--special-font: "reeyregular", sans-serif;
 	--thm-color: #68686f;
 	--thm-color-rgb: 104, 104, 111;
-	--thm-base: #e63a27;
+	--thm-base: #156D41;
 	--thm-base-rgb: 230, 58, 39;
 	--thm-primary: #f7c35f;
 	--thm-primary-rgb: 247, 195, 95;
@@ -867,6 +867,7 @@ body {
 	color: var(--thm-color);
 	font-size: 16px;
 	line-height: 1.875;
+	overflow-x: hidden;
 }
 
 body.locked {
@@ -1479,7 +1480,7 @@ h6 {
 }
 
 .topbar__info a i {
-	color: var(--thm-base);
+	color: var(--thm-base) ;
 	font-size: 14px;
 	margin-right: 10px;
 }
@@ -2798,7 +2799,7 @@ h6 {
 }
 
 .client-carousel--team-details img:hover {
-	background-color: #c1180b;
+	background-color: #84c416;
 }
 
 /*--------------------------------------------------------------
@@ -5041,7 +5042,7 @@ h6 {
 @media (min-width: 992px) {
 	.call-to-action-two {
 		padding-top: 0;
-		background-image: url(../images/shapes/cta-2-shape-1.png);
+		#background-image: url(../images/shapes/cta-2-shape-1.png);
 	}
 }
 
@@ -5714,7 +5715,7 @@ h6 {
 	position: absolute;
 	top: 100%;
 	right: 0;
-	background-color: #c1180b;
+	background-color: #84c416;
 	width: 38px;
 	height: 41px;
 	clip-path: polygon(0 0, 0 100%, 100% 0);
@@ -7398,7 +7399,7 @@ h6 {
 	right: 0;
 	bottom: 0;
 	z-index: 1;
-	background-image: url(../images/shapes/video-bg-1-2.png);
+	#background-image: url(../images/shapes/video-bg-1-2.png);
 	background-repeat: no-repeat;
 	display: none;
 }
@@ -7410,7 +7411,7 @@ h6 {
 }
 
 .video-one--home .video-one__shape {
-	background-image: url(../images/shapes/video-bg-1-1.png);
+	#background-image: url(../images/shapes/video-bg-1-1.png);
 }
 
 .video-one .container {

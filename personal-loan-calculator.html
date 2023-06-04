@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Loan Calculator || Finlon || Loan & Credit Repair HTML Template</title>
+    <title>Calculadora de Préstamos Personales</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
@@ -80,7 +80,7 @@
 
 
                     <a href="index.html">
-                        <img src="assets/images/logo-dark.png" width="140" height="51" alt="Finlon">
+                        <img src="assets/images/COOPERATIVAYAZBEL4.gif" width="150" height="80" alt="Finlon">
                     </a>
                 </div><!-- /.main-menu__logo -->
                 <div class="main-menu__nav">
@@ -111,16 +111,7 @@
                                 <li><a href="services-details.html">Service Details</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="#">Pages</a>
-                            <ul>
-                                <li><a href="our-team.html">Team</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                                <li><a href="credit-repair.html">Credit Repair</a></li>
-                                <li><a href="credit-audit.html">Credit Audit</a></li>
-                                <li><a href="careers.html">Careers</a></li>
-                                <li><a href="faqs.html">Faqs</a></li>
-                                <li><a href="apply-now.html">Apply Now</a></li>
-                            </ul>
+                      
                         </li>
                         <li class="dropdown"><a href="#">Features</a>
                             <ul>
@@ -173,95 +164,27 @@
             <div class="container">
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="index.html">Home</a></li>
-                    <li><span>Personal Loan Calculator</span></li>
+                    <li><span>Calculadora de</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
-                <h2>Personal Loan Calculator</h2>
+                <h2>Préstamos Personales</h2>
             </div><!-- /.container -->
         </section><!-- /.page-header -->
-        <section class="loan-Calculator pt-120 pb-120">                
-            <div class="container">
-                <div class="loan-calculator__box" id="personal-loan-calculator">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-12">
-                            <div class="slider-box">
-                                <form  action="#">
-                                    <div class="main-heading block-title text-left">
-                                        <p class="block-title__tagline mb-0">Monthly EMI</p>
-                                        <h3 class="block-title__title w-500">Loan Interest Calculator</h3>
-                                    </div>    
-                                    <div class="main-slide">
-                                        <div class="single-loan-header">
-                                            <h4>Loan Amount</h4>
-                                            <input type="text" name="pricipal" class="form-control" id="principal-input" onkeypress='return onlynumeric(event)'>
-                                        </div>
-                                        <div id="finlon-principal-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                            <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-                                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 1.80361%;"></span>
-                                        </div>
-                                        <div class="loan-counter-value">
-                                            <span>$</span>
-                                            <h6 id="principal-show"></h6>
-                                        </div>
-                                    </div>
-                                    <div class="main-slide">
-                                        <div class="single-loan-header">
-                                            <h4>Loan Months</h4>
-                                            <input type="text" name="loan-year" class="form-control" id="loan-year-input" onkeypress='return onlynumeric(event)'>
-                                        </div>
-                                        <div id="finlon-year-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                            <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-                                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 31.0345%;"></span>
-                                        </div>
-                                        <div class="loan-counter-value">
-                                            <h6 id="totalyear-show"></h6>
-                                            <span>Months</span>
-                                        </div>
-                                    </div>
-                                    <div class="main-slide">
-                                        <div class="single-loan-header">
-                                            <h4>Interest Rate</h4>
-                                            <input type="text" name="interest-rate" class="form-control" id="interest-rate-input"
-                                            onkeypress='return onlynumeric(event)'>
-                                        </div>
-                                        <div id="finlon-intrest-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                            <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-                                            <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 48.7603%;"></span>
-                                        </div>
-                                        <div class="loan-counter-value">
-                                            <h6 id="intrest"></h6>
-                                            <span>%</span>
-                                        </div>
-                                    </div>
-                                    <div class="note">
-                                        <p><strong>Note: </strong><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam quisque id diam vel quam elementum. Amet mattis vulputate enim nulla aliquet porttitor.</small></p>
-                                    </div>
-                                </form><!-- form -->
-                            </div><!-- slider-box -->
-                        </div><!-- col-xl-7 -->
-                        <div class="col-xl-5">
-                            <div class="emi-calculation">
-                                <div class="emi-calculation-content">
-                                    <p>
-                                      <span>Monthly EMI</span>
-                                      <b>$<i id="monthly-emi"></i></b>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="loan-calculation">
-                                <div id="loan-chart" data-highcharts-chart="7"></div>
-                                    <div class="loan-calculation-content total-loan-form">
-                                        <div class="total-loan-form-calculation">
-                                            <p>
-                                                <span>Total Interest</span>
-                                                <b>$<i id="total-interest"></i></b>
-                                            </p>
-                                            <p>
-                                                <span>Total Amount Payable</span>
-                                                <b>$<i id="total-amount"></i></b>
-                                            </p>
-                                            <a href="apply-now.html" class="thm-btn" target="_blank" rel="nofollow">Apply For Loan</a>
-                                        </div>
-                                    </div><!-- loan-calculation-content -->
+        <br></br>
+        <section>
+            <iframe src="https://app.calconic.com/api/embed/calculator/646ae3306e9dcc002992eab1" sandbox="allow-same-origin allow-forms allow-scripts allow-top-navigation allow-popups-to-escape-sandbox allow-popups" title="Calconic_ Calculator" name="Calconic_ Calculator" height="430px" scrolling="no" style="width: 100%; border: 0; outline: none;"></iframe>
+            <script>
+              (function() {
+                window.addEventListener("message",function(t){
+                  var e="https://www.paypalobjects.com/api/checkout.4.0.141.js";
+                  if(!document.querySelector('script[src="'+e+'"]')&&t.data&&"LOAD_PAYPAL"===t.data.action){
+                  var a=document.createElement("script");a.src=e,a.async=!0,a.dataset={paypalCheckout:!0,noBridge:!0,state:"ppxo_meta",env:"production"},document.body.append(a)
+                  }if(t.data&&"CALCONIC_UPDATE_HEIGHT"===t.data.action){
+                  var s=document.querySelector('iframe[src="https://app.calconic.com/api/embed/calculator/'+t.data.payload.id+'"]');
+                  if(s){s.height=t.data.payload.height}}
+                });
+              })();
+            </script>
+        </section>
                             </div><!-- loan-calculation -->
                         </div> <!-- col-xl-5 -->
                     </div><!-- row -->
@@ -274,15 +197,13 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer-widget footer-widget--about">
                             <a href="index.html" class="footer-widget__logo">
-                                <img src="assets/images/logo-light.png" alt="finlon" width="140" height="51">
+                                <img src="assets/images/COOPERATIVAYAZBEL4t.png" alt="finlon" width="140" height="51">
                             </a>
-                            <p class="footer-widget__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                                hac
-                                habitasse platea dictumst.</p>
+                            <p class="footer-widget__text">Asegurando tu bienestar financiero, hoy y siempre.</p>
                             <ul class="list-unstyled footer-widget__info">
                                 <li>
                                     <i class="icon-email"></i>
-                                    <a href="mailto:needhelp@finlon.com">needhelp@finlon.com</a>
+                                    <a href="mailto:needhelp@finlon.com">needhelp@coopyazbel.com</a>
                                 </li>
                                 <li>
                                     <i class="icon-telephone"></i>
@@ -297,41 +218,41 @@
                                 Explore
                             </h3><!-- /.footer-widget__title -->
                             <ul class="list-unstyled footer-widget__menu">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Our Services</a></li>
-                                <li><a href="blog.html">Latest News</a></li>
-                                <li><a href="apply-now.html">Apply for Loan</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="about.html">Sobre Nosotros</a></li>
+                                <li><a href="services.html">Nuestros Servicios</a></li>
+                                <li><a href="apply-now.html">Solicitar Préstamo</a></li>
+                                <li><a href="contact.html">Contactos</a></li>
                             </ul><!-- /.list-unstyled footer-widget__menu -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-2 -->
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget footer-widget--time">
                             <h3 class="footer-widget__title">
-                                Timing
+                                Horarios
                             </h3><!-- /.footer-widget__title -->
                             <p class="footer-widget__text">
-                                Mon Fri: 7:00am - 6:00pm <br> Saturday: 9:00am - 5:00pm <br> Sunday: Closed
+                                Lun a Vie: 8:00am - 5:00pm <br> Sábados: 9:00am - 12:00pm <br> Domingos: Cerrados
                             </p>
                             <div class="footer-widget__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
                                 <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
                             </div><!-- /.footer-widget__social -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-3 -->
                     <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget footer-widget--newsletter">
-                            <h3 class="footer-widget__title">
-                                Newsletter
-                            </h3><!-- /.footer-widget__title -->
-                            <form class="footer-widget__mailchimp">
-                                <input type="email" placeholder="Email address">
-                                <p class="footer-widget__mailchimp__text">
-                                    <i class="fa fa-check"></i>
-                                    I agree to all your terms and policies
-                                </p><!-- /.footer-widget__mailchimp -->
+						<div class="footer-widget footer-widget--newsletter">
+							<h3 class="footer-widget__title">
+								Newsletter
+							</h3><!-- /.footer-widget__title -->
+							<form class="footer-widget__mailchimp">
+								<input type="email" placeholder="Email address">
+								<p class="footer-widget__mailchimp__text">
+									<i class="fa fa-check"></i>
+									I agree to all your terms and policies
+								</p><!-- /.footer-widget__mailchimp -->
+							</form><!-- /.footer-widget__mailchimp -->
+						</div><!-- /.footer-widget -->
+					</div><!-- /.col-lg-3 -->    
                             </form><!-- /.footer-widget__mailchimp -->
                         </div><!-- /.footer-widget -->
                     </div><!-- /.col-lg-3 -->
@@ -340,10 +261,11 @@
         </footer><!-- /.main-footer -->
         <div class="bottom-footer">
             <div class="container">
-                <p class="bottom-footer__text text-center">Copyright &copy; 2022 All Rights Reserved.</p>
+                <p class="bottom-footer__text text-center">Copyright &copy; 2023 All Rights Reserved GLOBETEC.</p>
                 <!-- /.bottom-footer__text -->
             </div><!-- /.container -->
         </div><!-- /.bottom-footer -->
+
 
     </div><!-- /.page-wrapper -->
 

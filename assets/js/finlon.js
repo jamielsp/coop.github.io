@@ -39,7 +39,7 @@
 			connect: [true, false],
 			range: {
 				min: 1000,
-				max: 40000
+				max: 100000
 			}
 		});
 
