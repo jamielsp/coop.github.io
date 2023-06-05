@@ -868,6 +868,7 @@ body {
 	font-size: 16px;
 	line-height: 1.875;
 	overflow-x: hidden;
+	
 }
 
 body.locked {
@@ -2363,8 +2364,10 @@ h6 {
  transform 500ms ease 0ms;
 	transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
  transform 500ms ease 0ms, -webkit-transform 500ms ease 0ms;
-}
+	
 
+}
+	
 .mobile-nav__wrapper.expanded .mobile-nav__content {
 	opacity: 1;
 	visibility: visible;
@@ -2813,6 +2816,7 @@ h6 {
 	background-blend-mode: luminosity;
 	padding-top: 126px;
 	padding-bottom: 110px;
+	
 }
 
 .main-footer--extra-padding {
