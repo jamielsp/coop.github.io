@@ -182,123 +182,19 @@
 		<section class="loan-Calculator pt-120 pb-120">                
 			<div class="container">
 				<div class="loan-calculator__box" id="loan-eligibility">
-					<div class="loan-calculator__top">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="block-title text-left">
-									<p class="block-title__tagline">calculate your eligibility</p><!-- block-title__tagline -->
-									<h2 class="block-title__title">Are you eligible for loan?</h2><!-- block-title__title -->   
-								</div><!-- block-title --> 
-							</div><!-- col-md-6 -->
-							<div class="col-md-6">
-								<p class="loan-calculator__top__text">Nullam vel nibh facilisis lectus fermentum ultrices quis non
-										risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea
-										dictumst.</p><!-- loan-calculator__top__text -->
-							</div><!-- /. col-md=6 --> 
-						</div><!-- row -->
-					</div><!-- loan_calculator_top -->
-					<div class="row">
-						<div class="col-xl-7 col-lg-12">
-							<div class="slider-box">
-								<form  action="#">    
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Loan Amount</h4>
-											<input class="form-control" type="text" name="pricipal" id="eligibility-principal-input" onkeypress='return onlynumeric(event)'>
-										</div><!-- single-loan-header -->
-										<div id="eligibility-principal-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 1.80361%;"></span>
-										</div><!-- eligibility-principal-slide -->
-										<div class="loan-counter-value">
-											<span>$</span>
-											<h6 id="eligibility-principal-show"></h6>
-										</div><!-- loan-counter-value -->
-									</div><!-- main-slide -->
-
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Gross Income (Monthly)</h4>
-											<input class="form-control" type="text" name="grossincome" id="eligibility-income-input" onkeypress='return onlynumeric(event)'>
-										</div><!-- single-loan-header -->
-
-										<div id="eligibility-Grossincome-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 2.80361%;"></span>
-										</div><!-- eligibility-Grossincome-slide -->
-										<div class="loan-counter-value">
-											<span>$</span>
-											<h6 id="eligibility-income-show"></h6>
-										</div><!-- loan-counter-value -->
-									</div><!-- main-slide -->
-
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Loan Years</h4>
-											<input class="form-control" type="text" name="loan-year" id="eligibility-year-input" onkeypress='return onlynumeric(event)'>
-										</div><!-- single-loan-header -->
-										<div id="eligibility-year-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 31.0345%;"></span>
-										</div><!-- eligibility-year-slide -->
-										<div class="loan-counter-value">
-											<h6 id="eligibility-totalyear-show"></h6>
-											<span>Years</span>
-										</div><!-- loan-counter-value -->
-									</div><!-- main-slide -->
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Interest Rate</h4>
-											<input class="form-control" type="text" name="interest-rate" id="eligibility-rate-input"
-											onkeypress='return onlynumeric(event)'>
-										</div><!-- single-loan-header -->
-										<div id="eligibility-interest-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 48.7603%;"></span>
-										</div><!-- eligibility-interest-slide -->
-										<div class="loan-counter-value">
-											<h6 id="eligibility-interest-show"></h6>
-											<span>%</span>
-										</div><!-- loan-counter-value -->
-									</div><!-- main-slide -->
-									<div class="main-slide">
-										<div class="single-loan-header">
-											<h4>Other EMIs (Monthly)</h4>
-											<input class="form-control" type="text" name="other-emi" id="eligibility-other-input" onkeypress='return onlynumeric(event)'>
-										</div><!-- single-loan-header -->
-										<div id="eligibility-other-slide" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-											<div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"></div>
-											<span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 48.7603%;"></span>
-										</div><!-- eligibility-other-slide -->
-										<div class="loan-counter-value">
-											<span>$</span>
-											<h6 id="eligibility-other-show"></h6>
-										</div><!-- loan-counter-value -->
-									</div><!-- main-slide -->
-								</form><!-- form -->
-							</div><!-- slider-box -->
-						</div><!-- col-xl-7 -->
-
-						<div class="col-xl-5">
-							<div class="loan-calculation loan-eligibility">
-								<div class="loan-calculation-content total-loan-form">
-									<div class="total-loan-form-calculation">
-										<div class="loan-eligibility-inner">
-											<h4>Loan Amount:</h4>$<span class="loan-eligibility-value" id="loan-eligibility-principal"></span>
-										</div>
-										<div class="loan-eligibility-inner">
-											<h4>Monthly EMI:</h4>$<span class="loan-eligibility-value" id="loan-eligibility-monthly-emi"></span>
-										</div>
-										<div class="loan-eligibility-inner">
-											<h4>Maximum Loan Eligibility:</h4>$<span class="loan-eligibility-value" id="loan-eligibility-total">988522</span><br>
-											<span id="loan-eligibility-emi"></span>
-										</div>
-										<a href="apply-now.html" class="thm-btn" target="_blank" rel="nofollow">Apply For Loan</a>
-									</div><!-- total-loan-form-calculation -->
-								</div><!-- loan-calculation-content -->
-							</div><!-- loan-calculation -->
-						</div> <!-- col-md-5 -->
-					</div><!-- row -->
+					<iframe src="https://app.calconic.com/api/embed/calculator/646f678a6e9dcc002992fc93" sandbox="allow-same-origin allow-forms allow-scripts allow-top-navigation allow-popups-to-escape-sandbox allow-popups" title="Calconic_ Calculator" name="Calconic_ Calculator" height="534px" scrolling="no" style="width: 100%; border: 0; outline: none;"></iframe>
+<script>
+  (function() {
+    window.addEventListener("message",function(t){
+      var e="https://www.paypalobjects.com/api/checkout.4.0.141.js";
+      if(!document.querySelector('script[src="'+e+'"]')&&t.data&&"LOAD_PAYPAL"===t.data.action){
+      var a=document.createElement("script");a.src=e,a.async=!0,a.dataset={paypalCheckout:!0,noBridge:!0,state:"ppxo_meta",env:"production"},document.body.append(a)
+      }if(t.data&&"CALCONIC_UPDATE_HEIGHT"===t.data.action){
+      var s=document.querySelector('iframe[src="https://app.calconic.com/api/embed/calculator/'+t.data.payload.id+'"]');
+      if(s){s.height=t.data.payload.height}}
+    });
+  })();
+</script>
 				</div><!-- loan-calculator__box -->
 			</div>  <!-- container -->
 		</section>  <!-- loan-Calculator -->
